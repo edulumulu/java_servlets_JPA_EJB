@@ -11,8 +11,9 @@ Este proyecto es una aplicación web desarrollada en Java que permite la gestió
 - `src/java/servlets/` → Servlets que comunican la lógica con las JSP
 - `web/` → Ficheros JSP (menús de empleados e incidencias)
 - `web/css/` → Archivos CSS personalizados para el diseño visual
-- `resources/` → 
+- `conf/` → 
   - Archivo `persistence.xml` (configuración de JPA)
+- `resources/` → 
   - Archivo `DDBB.sql` con el script de creación de la base de datos y datos de prueba
 
 ---
@@ -135,7 +136,9 @@ git clone https://github.com/TU_USUARIO/NOMBRE_DEL_REPOSITORIO.git
 6. **Ejecuta el proyecto desde tu entorno de desarrollo**
 
 7. **Accede desde el navegador a:**
+```bash
 http://localhost:8080/NombreProyecto/empleados.jsp
+```
 
 ---
 
