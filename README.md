@@ -120,6 +120,7 @@ Este proyecto es una aplicación web para la gestión de incidencias entre emple
 
 ```bash
 git clone https://github.com/TU_USUARIO/NOMBRE_DEL_REPOSITORIO.git
+```
 
 2. **Importa el proyecto en NetBeans o Eclipse con soporte para Java EE**
 
