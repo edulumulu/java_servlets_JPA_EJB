@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Insertar Incidencia</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    </head>
+    <body>
+        <h1> Insertar incidencia </h1>
+        <form action="InsertarIncidencia" method="POST">
+            <!--<p>Id <input type="text" name="id_empleado"></p>-->
+            <p>Usuario de origen <input type="text" name="id_origen"></p>
+            <p>Usuario destino <input type="text" name="id_destino"></p>
+            <p>Descripción <input type="text" name="detalle"></p>
+            <p>Urgencia 
+                <select name="urgencia">
+                    <option value="urgente">Urgente</option>
+                    <option value="normal">Normal</option>
+                </select>
+            </p>
+
+            <input type="submit" value="insertar">
+        </form>
+        <form action="index2.html" method="POST">
+            <input type="submit" value="Volver">
+        </form>
+    </body>
+</html>
